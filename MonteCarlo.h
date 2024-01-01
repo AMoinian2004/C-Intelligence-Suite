@@ -11,7 +11,6 @@ public:
     MonteCarlo(int num_samples, int num_threads)
         : num_samples(num_samples), num_threads(num_threads) {}
 
-    // Example of a Monte Carlo simulation function
     double simulate(std::function<double()> func) {
         std::vector<std::thread> threads;
         double total = 0.0;
