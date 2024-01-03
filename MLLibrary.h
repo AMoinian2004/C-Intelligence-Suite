@@ -1,16 +1,16 @@
 #ifndef MLLIBRARY_H
 #define MLLIBRARY_H
 
-#include "LinearRegression.h"
-#include "LogisticRegression.h"
-#include "DecisionTree.h"
-#include "KMeans.h"
-#include "DataSplit.h"
-#include "NeuralNetwork.h"
-#include "DataNormalization.h"
-#include "DataStandardization.h"
-#include "MonteCarlo.h"
-#include "LossFunction.h"
-#include "LossFunction.c"
+#include "intelligence-suite/LinearRegression.h"
+#include "intelligence-suite/LogisticRegression.h"
+#include "intelligence-suite/DecisionTree.h"
+#include "intelligence-suite/KMeans.h"
+#include "intelligence-suite/DataSplit.h"
+#include "intelligence-suite/NeuralNetwork.h"
+#include "intelligence-suite/DataNormalization.h"
+#include "intelligence-suite/DataStandardization.h"
+#include "intelligence-suite/MonteCarlo.h"
+#include "intelligence-suite/LossFunction.h"
+#include "intelligence-suite/LossFunction.c"
 
 #endif // MLLIBRARY_H
