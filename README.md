@@ -1,13 +1,30 @@
-# Here's a demonstration of my library: https://youtu.be/wf0WcMoy_xo
-# To Download:
+# Cpp-Intelligence-Suite
+
+Here's a demonstration of my library: [Cpp-Intelligence-Suite Demo](https://youtu.be/wf0WcMoy_xo)
+
+## To Download Using GitHub
 1. Click the "Download ZIP" button under the green "Code" button.
 2. Unzip the file.
 3. Move all contents inside the folder into the folder of the C++ file you want to use it in.
-4. Write #include "MLLibrary.h" at the top of the C++ file you want to use it in.
+4. Write `#include "MLLibrary.h"` at the top of the C++ file you want to use it in.
 
-NOTE: The main.cpp file includes test cases. It is advised for you to delete the main.cpp file, unless you don't have a main.cpp file in your project already and want to use the test cases.
+**NOTE**: The `main.cpp` file includes test cases. It is advised for you to delete the `main.cpp` file, unless you don't have a `main.cpp` file in your project already and want to use the test cases.
 
-# Features:
+## To Download Using Docker
+To use the library in a Docker environment, pull the Docker image and integrate it into your project: docker pull amoinian/mllibrary:latest
+
+
+You can run a container from this image and navigate to `/usr/src/app` to find the `MLLibrary.h`. Additionally, you can use the image as a base in your Dockerfile:
+
+```Dockerfile
+FROM amoinian/mllibrary:latest
+COPY . /usr/src/myapp
+WORKDIR /usr/src/myapp
+RUN g++ -o myapp main.cpp
+CMD ["./myapp"]
+
+
+## Features
 ### Linear Regression
 - Fitting
 - Predicting
