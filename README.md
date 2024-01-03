@@ -1,6 +1,4 @@
-
-
-#To Download:
+# To Download:
 1. Click the "Download ZIP" button under the green "Code" button.
 2. Unzip the file.
 3. Move all contents inside the folder into the folder of the C++ file you want to use it in.
