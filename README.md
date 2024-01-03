@@ -11,8 +11,10 @@ Here's a demonstration of my library: [Cpp-Intelligence-Suite Demo](https://yout
 **NOTE**: The `main.cpp` file includes test cases. It is advised for you to delete the `main.cpp` file, unless you don't have a `main.cpp` file in your project already and want to use the test cases.
 
 ## To Download Using Docker
-To use the library in a Docker environment, pull the Docker image and integrate it into your project: docker pull amoinian/mllibrary:latest
-
+To use the library in a Docker environment, pull the Docker image and integrate it into your project: 
+```Dockerfile
+docker pull amoinian/mllibrary:latest
+```
 
 You can run a container from this image and navigate to `/usr/src/app` to find the `MLLibrary.h`. Additionally, you can use the image as a base in your Dockerfile:
 
@@ -22,7 +24,7 @@ COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp
 RUN g++ -o myapp main.cpp
 CMD ["./myapp"]
-'''
+```
 
 ## Features
 ### Linear Regression
