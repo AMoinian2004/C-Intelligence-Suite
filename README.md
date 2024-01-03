@@ -1,4 +1,4 @@
-# Cpp-Intelligence-Suite
+# C++-Intelligence-Suite
 
 Here's a demonstration of my library: [Cpp-Intelligence-Suite Demo](https://youtu.be/wf0WcMoy_xo)
 
